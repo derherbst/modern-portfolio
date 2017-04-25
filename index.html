@@ -5,25 +5,24 @@
     <title>Shit</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/normalize.css">
   </head>
   <body>
     <!-- Header -->
     <header class="main-header">
 
-        <div class="container">
+        <div class="container clearfix">
           <div class="logo">Made by Jack</div>
           <div class="main-header__right">
             <nav class="main-navigation">
-              <a href="">Home</a>
+              <a href="" class="active">Home</a>
               <a href="">About</a>
               <a href="">Work</a>
               <a href="">Contact</a>
             </nav>
             <div class="social">
-              <a href="" class="social__item"><i class=""></i></a>
-              <a href="" class="social__item"><i class=""></i></a>
-              <a href="" class="social__item"><i class=""></i></a>  
+              <a href="" class="social__item"><i class="icon-facebook"></i></a>
+              <a href="" class="social__item"><i class="icon-gplus"></i></a>
+              <a href="" class="social__item"><i class="icon-twitter"></i></a>  
             </div>
           </div>
         </div>
@@ -35,10 +34,10 @@
     <div class="about">
 
       <div class="container">
-        <h1 class="">I’m a designer from the United Kingdom. <span class="">Get in touch today!</span></h1>
+        <h1 class="about__title">I’m a designer from the United Kingdom. <span class="">Get in touch today!</span></h1>
         <div class="box">
           <div class="box__title">MediaGroup</div>
-          <a href=""></a>
+          <a class="box__link" href="">www.mediagroup.com</a>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, harum. Repellendus debitis numquam cumque temporibus quia, saepe! Odit porro et minus debitis nobis vel voluptatibus, voluptatum, dolor veniam! Ex, voluptates?</p>
           <a href="" class="btn">Visit site</a>
           <a href="" class="btn btn--transparent">More info</a>
@@ -52,86 +51,92 @@
      
       <div class="container">
         <div class="features-item">
-          <i class="features-tem__image"></i>
+          <div class="features-item__image">
+            <i class="icon-camera"></i>
+          </div>
           <h2 class="features-item__title">Beautiful Design</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet nibh ac dui rhoncus pretium. Cras quis dolor id urna lobortis fermentum.</p>
         </div>
-        <a href="#" class="features-item">
-          <i class="features-tem__image"></i>
+        <div class="features-item">
+          <div class="features-item__image">
+            <i class="icon-picture"></i>
+          </div>
           <h2 class="features-item__title">Built to Perfection</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet nibh ac dui rhoncus pretium. Cras quis dolor id urna lobortis fermentum.</p>
-        </a>
+        </div>
         <div class="features-item">
-          <i class="features-tem__image"></i>
+          <div class="features-item__image">
+            <i class="icon-heart"></i>
+          </div>
           <h2 class="features-item__title">Satisfaction Guaranteed</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sit amet nibh ac dui rhoncus pretium. Cras quis dolor id urna lobortis fermentum.</p>
         </div>
       </div>
       
     </div>
+    <div class="container">
+      <section class="section">
 
-    <section class="container">
-     
-      <h2 class="section-title">Latest Projects</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <div class="projects-list">
-        <div class="project-item">
-          <img src="img/project-1.jpg" alt="">
+        <h2 class="section__title">Latest Projects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="projects-list">
+          <div class="project-item">
+            <img src="img/project-1.jpg" alt="">
+          </div>
+          <div class="project-item">
+            <img src="img/project-2.jpg" alt="">
+          </div>
+          <div class="project-item">
+            <img src="img/project-3.jpg" alt="">
+          </div> 
         </div>
-        <div class="project-item">
-          <img src="img/project-2.jpg" alt="">
-        </div>
-        <div class="project-item">
-          <img src="img/project-3.jpg" alt="">
-        </div> 
-      </div>
-      
-    </section>
 
-    <section class="container">
-     
-      <h2 class="section-title">Client Testimonials</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <div class="feedback-list">
-        <div class="feedback-item">
-          <div class="feedback-item__image">
-            <img src="img/user.jpg" alt="">
-          </div>
-          <p class="feedback-item__text">“Vivamus varius imperdiet mollis. Praesent gravida 
-  sollicitudin odio, vel condimentum”</p>
-          <strong class="feedback-item__name">Bill Gates</strong>
-          <a href="#">www.microsoft.com</a>
-        </div>
-        <div class="feedback-item">
-          <div class="feedback-item__image">
-            <img src="img/user.jpg" alt="">
-          </div>
-          <p class="feedback-item__text">“Vivamus varius imperdiet mollis. Praesent gravida 
-  sollicitudin odio, vel condimentum”</p>
-          <strong class="feedback-item__name">Bill Gates</strong>
-          <a href="#">www.microsoft.com</a>
-        </div>
-        <div class="feedback-item">
-          <div class="feedback-item__image">
-            <img src="img/user.jpg" alt="">
-          </div>
-          <p class="feedback-item__text">“Vivamus varius imperdiet mollis. Praesent gravida 
-  sollicitudin odio, vel condimentum”</p>
-          <strong class="feedback-item__name">Bill Gates</strong>
-          <a href="#">www.microsoft.com</a>
-        </div>
-      </div>
-      
-    </section>
+      </section>
 
+      <section class="section">
+
+        <h2 class="section__title">Client Testimonials</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        <div class="feedback-list">
+          <div class="feedback-item">
+            <div class="feedback-item__image">
+              <img src="img/user.jpg" alt="">
+            </div>
+            <p class="feedback-item__text">“Vivamus varius imperdiet mollis. Praesent gravida 
+    sollicitudin odio, vel condimentum”</p>
+            <strong class="feedback-item__name">Bill Gates</strong>
+            <a href="#">www.microsoft.com</a>
+          </div>
+          <div class="feedback-item">
+            <div class="feedback-item__image">
+              <img src="img/user.jpg" alt="">
+            </div>
+            <p class="feedback-item__text">“Vivamus varius imperdiet mollis. Praesent gravida 
+    sollicitudin odio, vel condimentum”</p>
+            <strong class="feedback-item__name">Bill Gates</strong>
+            <a href="#">www.microsoft.com</a>
+          </div>
+          <div class="feedback-item">
+            <div class="feedback-item__image">
+              <img src="img/user.jpg" alt="">
+            </div>
+            <p class="feedback-item__text">“Vivamus varius imperdiet mollis. Praesent gravida 
+    sollicitudin odio, vel condimentum”</p>
+            <strong class="feedback-item__name">Bill Gates</strong>
+            <a href="#">www.microsoft.com</a>
+          </div>
+        </div>
+
+      </section>
+    </div>
     <footer class="main-footer">
      
       <div class="container clearfix">
         <p class="copyright">Copyright Made by Jack 2014. All rights reserved.</p>
         <div class="social">
-          <a href="" class="social-item"><i class=""></i></a>
-          <a href="" class="social-item"><i class=""></i></a>
-          <a href="" class="social-item"><i class=""></i></a>
+          <a href="" class="social__item"><i class="icon-facebook"></i></a>
+          <a href="" class="social__item"><i class="icon-gplus"></i></a>
+          <a href="" class="social__item"><i class="icon-twitter"></i></a>
         </div>
       </div>
       
